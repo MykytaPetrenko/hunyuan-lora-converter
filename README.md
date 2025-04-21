@@ -1,3 +1,4 @@
 # hunyuan-lora-converter
 A short script for converting HunyuanVideo LoRAs train in OneTrainer (old format, not OMI) to diffusion-pipe (ComfyUI compatible format)
 To be tested.
+Note: it does lossy conversion and need quite long time to remap weight.
