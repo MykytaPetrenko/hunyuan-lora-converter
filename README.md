@@ -9,7 +9,7 @@ A Python tool for converting LoRA weights trained in **HunyuanVideo (OneTrainer 
 - Applies **SVD-based low-rank approximation** to produce a pair of `lora_A` and `lora_B` matrices per layer.
 - Includes **accuracy checks** for each reconstructed layer.
 - Outputs a **single `.safetensors` file** with the converted LoRA weights.
-- ⚠️ This is a **lossy** conversion due to rank-limited SVD, and takes time depending on matrix size and GPU availability.
+- ⚠️ This is a **lossy** conversion due to rank-limited SVD, and takes time depending on matrix size and GPU availability. Be ready to wait 10-20 mins to convert a single LoRA.
 - ⚠️ Support for `single_blocks` and `double_blocks` only.
 ---
 
